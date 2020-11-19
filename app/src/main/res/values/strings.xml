@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Entrega Obligatoria Pedidos MUY IMPORTRANTE</string>
+    <string name="caf_solo">Café SOLO</string>
+    <string name="caf_con_leche">Café CON LECHE</string>
+    <string name="caf_cortado">Café CORTADO</string>
+    <string name="_0">0</string>
+    <string name="_imcre1">+</string>
+    <string name="_incre3">+</string>
+    <string name="_incre2">+</string>
+    <string name="carrito">Carrito</string>
+    <string name="delete">Delete</string>
+</resources>
