@@ -9,4 +9,38 @@
     <string name="_incre2">+</string>
     <string name="carrito">Carrito</string>
     <string name="delete">Delete</string>
+    <string name="time">time</string>
+    <string name="pedidos_mitienda_com">pedidos@mitienda.com</string>
+    <string name="_ok">OK</string>
+    <string name="estas_seguro">¿Estas seguro de que quieres hacer el pedido?</string>
+    <string name="hora_de_entrega">\"hora de entrega \"</string>
+    <string name="revise_el_pedido">Revise el pedido</string>
+    <string name="timePicker">timePicker</string>
+    <string name="datePicker">datePicker</string>
+    <string name="fecha">fecha</string>
+    <string name="no_has_seleccionado_modo_de_entrega">No has seleccionado Modo de Entrega</string>
+    <string name="_barra">/</string>
+    <string name="mi_pedido">Mi pedido es:\n</string>
+    <string name="cafes_con_leche">\" Cafes con Leche \n\"</string>
+    <string name="cafes_solos">\" Cafes Solos \n\"</string>
+    <string name="cafes_cortados">\" Cafes Cortados \n\"</string>
+    <string name="la_fecha_de_entrega_es">\"La fecha de entrega es \"</string>
+    <string name="modo_de_entrega">\"Modo de entrega \"</string>
+    <string name="direccion">\"Dirección \"</string>
+    <string name="numero_de_telefono">\"Numero de telefono: \"</string>
+    <string name="y_la">\" y la \n\"</string>
+    <string name="mailto">mailto:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="_fecha">fecha</string>
+    <string name="modoEntrega">modoEntrega</string>
+    <string name="cantidadCafeCortado">cantidadCafeCortado</string>
+    <string name="cantidadCafeConLeche">cantidadCafeConLeche</string>
+    <string name="cantidadCafeSolo">cantidadCafeSolo</string>
+    <string name="pedido_de">\"Pedido de \"</string>
+    <string-array name="labels_array">
+        <item>Casa</item>
+        <item>Trabajo</item>
+        <item>Móvil</item>
+        <item>Otro</item>
+    </string-array>
 </resources>

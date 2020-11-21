@@ -14,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static final int TEXT_REQUEST = 1;
 
     int cantidadSOLO = 0;
     int cantidadCONLECHE = 0;
@@ -43,10 +42,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_carrito:
 
                 Intent intent = new Intent(this, pantalla2.class);
-                intent.putExtra("cantidadCafeSolo", R.id.cantidadCafeSolo);
-                intent.putExtra("cantidadCafeConLeche", R.id.textView4);
-                intent.putExtra("cantidadCafeCortado", R.id.textView5);
-                startActivityForResult(intent, TEXT_REQUEST);
+                intent.putExtra(getString(R.string.cantidadCafeSolo), String.valueOf(cantidadSOLO));
+                intent.putExtra(getString(R.string.cantidadCafeConLeche), String.valueOf(cantidadCONLECHE));
+                intent.putExtra(getString(R.string.cantidadCafeCortado), String.valueOf(cantidadCORTADO));
+                startActivity(intent);
                 return true;
             case R.id.action_delete:
                 TextView cambiarTexto1 = findViewById(R.id.cantidadCafeSolo);
@@ -95,5 +94,4 @@ public class MainActivity extends AppCompatActivity {
         TextView cambiarTextoincre = findViewById(R.id.textView5);
         cambiarTextoincre.setText(String.valueOf(cantidadCORTADO));
     }
-
 }
